@@ -1,0 +1,32 @@
+.nav {
+  width: 500px;
+  margin: 0 300px 0 auto;
+  // background-color: black;
+  ul {
+    display: flex;
+    li {
+      padding: 5px 12px;
+      list-style: none;
+      font-size: 20px;
+      display: block;
+      margin: 0 15px;
+      transition: 0.6s;
+      border-radius: 10px;
+      // background-color: yellow;
+      a {
+        text-decoration: none;
+        font-size: 23px;
+        color: black;
+        font-weight: 500;
+        transition: 0.3s;
+      }
+    }
+    li:hover {
+        transform: translateXk(10%)
+    }
+    li:hover > * {
+      transform: scale(0.5);
+      color: #d03a8c;
+    }
+  }
+}
